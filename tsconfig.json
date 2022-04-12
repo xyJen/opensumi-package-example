@@ -1,0 +1,57 @@
+{
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es6",
+    "moduleResolution": "node",
+    "strictPropertyInitialization": false,
+    "sourceMap": true,
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "importHelpers": true,
+    "resolveJsonModule": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "downlevelIteration": true,
+    "noEmitOnError": false,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "strictFunctionTypes": false,
+    "jsx": "react",
+    "baseUrl": ".",
+    "rootDir": "./packages",
+    "outDir": "lib",
+    "noUnusedLocals": false,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "declarationMap": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./typings"
+    ],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "lite/*": [
+        "./src/lite/*"
+      ],
+    }
+  },
+  "include": [
+    "src",
+    "packages",
+    "typings/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "public"
+  ]
+}
