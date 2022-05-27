@@ -1,0 +1,25 @@
+{
+  "name": "opensumi-package-example",
+  "version": "1.0.0",
+  "description": "opensumi, example",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyJen/opensumi-package-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xyJen/opensumi-package-example/issues"
+  },
+  "homepage": "https://github.com/xyJen/opensumi-package-example#readme",
+  "dependencies": {
+    "@opensumi/di": "^1.1.0",
+    "@opensumi/ide-core-browser": "^2.16.6",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
