@@ -15,6 +15,10 @@ test  for something
 
 [lib/test.json](lib/test.json)
 
+[lib/map.scs/yep.json](lib/map.scs/yep.json)
+
+[lib/map.scs](lib/map.scs)
+
 [./lib](./lib)
 
 [/lib](/lib)
