@@ -1,0 +1,8 @@
+mergeCommitMessage:
+  -
+    type: all
+    lang: spel
+    templates: |
+     	 title: #{title} 
+			 targetBranch: #{targetBranch} 目标分支
+		 	 sourceBranch: #{sourceBranch} 评审分支
